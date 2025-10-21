@@ -1,0 +1,55 @@
+/* App-level layout and extras for Shopping Cart App */
+
+.app-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.brand {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	font-weight: 700;
+	color: var(--text);
+}
+.brand .logo {
+	width: 36px;
+	height: 36px;
+	border-radius: 8px;
+	background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+
+.hero {
+	padding: 2rem 1rem;
+	margin-bottom: 1rem;
+}
+
+.muted { color: var(--muted); }
+
+.stack { display: flex; gap: 1rem; align-items: center; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+/* small card utility */
+.card {
+	background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+	border: 1px solid var(--card-border);
+	padding: 1rem;
+	border-radius: var(--radius);
+}
+
+.center { display: flex; justify-content: center; align-items: center; }
+
+/* Footer */
+.app-footer { text-align: center; color: var(--muted); padding: 2rem 1rem; }
+
+.search-bar {
+  display: block;
+  margin: 10px auto 20px;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
