@@ -29,7 +29,7 @@ export default function Login() {
         <h3>Username</h3>
         <input
           type="text"
-          placeholder="Isi Username..."
+          placeholder="Isi Username... (kio)"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
